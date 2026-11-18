@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyectos · Fernando Borrás Rocher · UMH</title>
+<meta name="description" content="Proyectos en curso de Fernando Borrás Rocher (UMH): catálogo de apps de IA, cursos de IA para docencia, investigación, transferencia, servicios universitarios y asociaciones de pacientes, y herramientas de medicina estética.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f7f5; --surface: #fff; --border: #e4e3df; --border-strong: #cccbc6;
+    --text: #1a1916; --muted: #7a7872;
+    --doc: #1a4fd8; --inv: #126649; --sim: #c2186b; --uti: #6429a8; --eva: #b83a0c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 Inter, system-ui, sans-serif; }
+  main { max-width: 1080px; margin: 0 auto; padding: 56px 24px 72px; }
+  h1, h2 { font-family: Sora, Inter, sans-serif; letter-spacing: -0.02em; margin: 0; }
+  h1 { font-size: clamp(2rem, 4.5vw, 2.9rem); font-weight: 800; line-height: 1.1; }
+  .lead { color: var(--muted); max-width: 640px; margin: 14px 0 0; font-size: 1.08rem; }
+  .author { margin-top: 18px; font-size: .92rem; color: var(--muted); }
+  .author a { color: var(--text); }
+  section { margin-top: 52px; }
+  h2 { font-size: 1.15rem; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+  h2::before { content: ""; width: 10px; height: 10px; border-radius: 3px; background: var(--c); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 18px; }
+  a.card {
+    display: flex; flex-direction: column; gap: 8px; padding: 22px; text-decoration: none; color: inherit;
+    background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--c); border-radius: 12px;
+    transition: border-color .15s, transform .15s;
+  }
+  a.card:hover { border-color: var(--border-strong); border-top-color: var(--c); transform: translateY(-2px); }
+  .name { font-family: Sora, Inter, sans-serif; font-weight: 700; font-size: 1.2rem; }
+  .desc { color: var(--muted); font-size: .94rem; flex: 1; }
+  .meta { font-size: .8rem; font-weight: 600; color: var(--c); }
+  .url { font-size: .78rem; color: var(--muted); word-break: break-all; }
+  footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Proyectos en curso</h1>
+    <p class="lead">Apps de inteligencia artificial y cursos para potenciar la docencia, la investigación, la transferencia y los servicios universitarios.</p>
+    <p class="author">Fernando Borrás Rocher · Universidad Miguel Hernández de Elche ·
+      <a href="https://orcid.org/0000-0002-5519-4573">ORCID 0000-0002-5519-4573</a></p>
+  </header>
+
+  <section style="--c: var(--uti)">
+    <h2>Catálogo</h2>
+    <div class="grid">
+      <a class="card" href="https://fborrasumh.github.io/ia/">
+        <span class="name">Aplicaciones IA</span>
+        <span class="desc">Catálogo de apps de IA para docencia, evaluación, investigación y simulación clínica, con guía para obtener y gestionar la clave de API.</span>
+        <span class="meta">Catálogo · es / en / pt</span>
+        <span class="url">fborrasumh.github.io/ia</span>
+      </a>
+    </div>
+  </section>
+
+  <section style="--c: var(--doc)">
+    <h2>Cursos de IA</h2>
+    <div class="grid">
+      <a class="card" href="https://fborrasumh.github.io/profesoria/">
+        <span class="name">ProfesorIA</span>
+        <span class="desc">Potencia tu docencia con IA: apps agrupadas por fase del trabajo docente.</span>
+        <span class="meta">5 sesiones · 12 apps + 19 complementarias · 10 h</span>
+        <span class="url">fborrasumh.github.io/profesoria</span>
+      </a>
+      <a class="card" href="https://fborrasumh.github.io/investigadoria/">
+        <span class="name">InvestigadorIA</span>
+        <span class="desc">Herramientas de IA para la investigación: evidencia, financiación, datos y publicación.</span>
+        <span class="meta">5 sesiones · 12 apps</span>
+        <span class="url">fborrasumh.github.io/investigadoria</span>
+      </a>
+      <a class="card" href="https://fborrasumh.github.io/transferia/">
+        <span class="name">TransferIA</span>
+        <span class="desc">IA para la transferencia de conocimiento, la I+D+i y el emprendimiento.</span>
+        <span class="meta">5 sesiones · 12 apps + 23 complementarias · 10 h</span>
+        <span class="url">fborrasumh.github.io/transferia</span>
+      </a>
+      <a class="card" href="https://fborrasumh.github.io/relacionesinternacionalesia/">
+        <span class="name">Internacionalización Universitaria con IA</span>
+        <span class="desc">Tablón de procesos del servicio de relaciones internacionales y app opcional de autoevaluación de la Carta Erasmus.</span>
+        <span class="meta">5 sesiones · 12 apps + 16 complementarias · 10 h</span>
+        <span class="url">fborrasumh.github.io/relacionesinternacionalesia</span>
+      </a>
+      <a class="card" href="https://fborrasumh.github.io/calidaduniversitaria/">
+        <span class="name">Calidad Universitaria con IA</span>
+        <span class="desc">Tablón de procesos del servicio de calidad y app opcional de autoevaluación EFQM.</span>
+        <span class="meta">5 sesiones · 12 apps + 16 complementarias · 10 h</span>
+        <span class="url">fborrasumh.github.io/calidaduniversitaria</span>
+      </a>
+      <a class="card" href="https://fborrasumh.github.io/propatiens/">
+        <span class="name">IA para asociaciones de pacientes</span>
+        <span class="desc">Con el Instituto ProPatiens y la Cátedra del Paciente UMH: JuntIA, DifundIA, SubvencIA y EncuestIA.</span>
+        <span class="meta">4 apps · materiales por sesión</span>
+        <span class="url">fborrasumh.github.io/propatiens</span>
+      </a>
+    </div>
+  </section>
+
+  <section style="--c: var(--sim)">
+    <h2>Medicina estética</h2>
+    <div class="grid">
+      <a class="card" href="https://fborrasumh.github.io/esteticia/">
+        <span class="name">EstéticIA</span>
+        <span class="desc">Aprendizaje, simulación clínica y evaluación adaptativa para el Máster en Medicina Estética Integral y Antienvejecimiento (UMH).</span>
+        <span class="meta">11 asignaturas · simuladores · pacientes virtuales · ECOE</span>
+        <span class="url">fborrasumh.github.io/esteticia</span>
+      </a>
+      <a class="card" href="https://fborrasumh.github.io/kitesteticia/">
+        <span class="name">Kit EstéticIA</span>
+        <span class="desc">Las apps de la consulta de medicina estética, de la primera visita a la revisión. Con Elena Caride Miana.</span>
+        <span class="meta">8 apps · es / en / pt</span>
+        <span class="url">fborrasumh.github.io/kitesteticia</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © Fernando Borrás Rocher · UMH · <a href="https://github.com/fborrasumh">github.com/fborrasumh</a>
+  </footer>
+</main>
+</body>
+</html>
