@@ -11,6 +11,8 @@ Portada que presenta los proyectos de IA en los que trabajo. Publicada en **http
 | Internacionalización Universitaria con IA | https://fborrasumh.github.io/relacionesinternacionalesia/ |
 | Calidad Universitaria con IA | https://fborrasumh.github.io/calidaduniversitaria/ |
 | IA para asociaciones de pacientes (ProPatiens) | https://fborrasumh.github.io/propatiens/ |
+| OráculoMIR | https://fborrasumh.github.io/oraculomir/ |
+| PAUsible | https://fborrasumh.github.io/pausible/ |
 | EstéticIA | https://fborrasumh.github.io/esteticia/ |
 | Kit EstéticIA | https://fborrasumh.github.io/kitesteticia/ |
 
